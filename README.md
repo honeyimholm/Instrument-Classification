@@ -12,7 +12,7 @@ remained robust even when noise was added to the samples.
 For this demo we'll show you our complete pipeline - from .wav sample to classification. 
 You must have Tensorflow to run the demo.  
 
-First, we take the noisy_flute.wav file and perform a CQT on it using the cqt.m file, and the plotnsgtf.m file.
+First, we take the noisy_flute.wav file and perform a CQT on it using the cqt.m file, and the plotnsgtf.m file from the toolbox we linked in the next section.
 
 Next, we needed to crop the output image before it can be fed into our CNN.  We batch fed our images into photoshop to ensure that they were exactly the right size and cropped exactly in the right place.
 
